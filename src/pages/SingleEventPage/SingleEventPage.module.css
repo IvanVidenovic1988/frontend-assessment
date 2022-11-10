@@ -1,0 +1,87 @@
+p {
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(97, 101, 128, 0.6);
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    color: rgba(97, 101, 128, 0.6);
+}
+
+.poi h2 {
+    margin: 0;
+}
+
+.events {
+    display: flex;
+    justify-content: space-between;
+}
+
+.planned {
+    margin-left: 10px;
+}
+
+.grey {
+    color: rgba(97, 101, 128, 0.8);
+    font-weight: 600;
+    padding-bottom: 3px;
+}
+
+.info {
+    margin-top: 20px;
+    height: 50px;
+}
+
+.info .status {
+    width: 120px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.info .blue {
+    border: 2px solid rgb(1, 83, 159);
+    background-color: rgb(86, 128, 225);
+}
+
+.info .green {
+    border: 2px solid rgb(0, 62, 0);
+    background-color: rgb(69, 127, 69);
+}
+
+.info .purple {
+    border: 2px solid rgb(64, 0, 64);
+    background-color: rgb(181, 79, 218);
+}
+
+.info .red {
+    border: 2px solid rgb(255, 0, 0);
+    background-color: rgb(253, 138, 138);
+}
+
+.btn-container {
+    margin-right: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.btn {
+    padding: 10px 15px 10px 40px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid rgba(72, 148, 254, 0.4);
+    font-size: 15px;
+    color: rgb(72, 148, 254);
+    font-weight: bold;
+    cursor: pointer;
+}
